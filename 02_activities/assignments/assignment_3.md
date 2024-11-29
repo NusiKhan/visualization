@@ -7,14 +7,34 @@
 - For each visualization: 
     - Explain (with reference to material covered up to date, along with readings and other scholarly sources, as needed) whether or not you think this data visualization is accessible, reproducible, and equitable. 
         ```
-        Your answer...
+      
+        Good Visualization:
+        All the data sources used is linked so it is reproducible. The labels and explanations are clear and simple enough that people from a diverse background can understand, it includes data for the male and female population in South Korea so it is equitable.
+         However, it does somewhat lack accessibilty. Some of the colors in the heatmap end up looking pretty similiar, which means the visualization is not accessible to ceratin people. It is possible to make the image more accessible by increasing the contrast with the colors and check. Text size is also too small to read for certain people. 
+        
+        
+        Bad Visualization:
+        This visualization is not accessible, reproducible and equitable. 
+        There are no data sources or any code linked to anything so the work is not reproducible at all. There is no legend and nothing saying what the data actually represents and what the reader is supposed to understand from it. So it is not equitable. Since there are no explanations for anything so a screen reader would not be able to read anything, and the colors are too similar so ceratin people would not be able to tell them apart, so it is not acessible. 
+
 
 
 
         ```
     - How could this data visualization have been improved (in terms of accessibility, reproducibility, equity)?  
         ```
-        Your answer...
+         Good Visualisation:
+        -Can be made more accessible by increasing the contrast between the colors. Or just changing to grayscale. Increasing text size and using monospaced text will also help. 
+
+        Bad Visualisation:
+        -Provide data sources and proper documentation for reporducibility
+        -Not very accessible. Provide explanations for people who make not be able to see the dashboard, and make it easier for a screen reader to read. The colors are also too light and would look pretty much the same to ceratin people. Increase text size as well. 
+        -Provide a legend and properly state what the labels are about and what the visualization is suposed to represent to make it equitable. 
+
+
+
+
+
 
 
 
