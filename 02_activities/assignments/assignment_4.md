@@ -5,25 +5,54 @@
 ### Requirements:
 - We will finish this class by giving you the chance to use what you have learned in a practical context, by creating data visualizations from raw data. 
 - Choose a dataset of interest from the [City of Toronto’s Open Data Portal](https://www.toronto.ca/city-government/data-research-maps/open-data/) or [Ontario’s Open Data Catalogue](https://data.ontario.ca/). 
-- Using Python and one other data visualization software (Excel or free alternative, Tableau Public, any other tool you prefer), create two distinct visualizations from your dataset of choice.  
+- Using Python and one other data visualization software (Excel or free alternative, Tableau Public, any other tool you prefer), create two distinct visualizations from your dataset of choice.  https://open.toronto.ca/dataset/toronto-shelter-system-flow/
+
+
 - For each visualization, describe and justify: 
     > What software did you use to create your data visualization?
+    Figure One I used python to create a line graph of montly trend.
+    FIgure Two I used google sheets to create a pie chart.
 
     > Who is your intended audience? 
-    
+    Charities helping the homeless population of Toronto. The charts could be useful in convincing donors to donate more money to aid homelessnes. 
+
     > What information or message are you trying to convey with your visualization? 
+    Figure One: That the homeless population in Toronto has increased over the years, and in comparision there has not been an increase in the number of people moving to housing, it has stayed at a similar level in the past few years even though the total population of actively homeless people has increased. 
+
+    Figure Two: Highlighting the proportion of people actively homeless, and newly added to the group each month, and those that have returned to homeless shelters. And it also shows the small proprotion of people who do manage to move into housing.
+
+    Both figures are conveying the increase in the number of homeless people in Toronto. 
+
     
     > What design principles (substantive, perceptual, aesthetic) did you consider when making your visualization? How did you apply these principles? With what elements of your plots? 
+
     
     > How did you ensure that your data visualizations are reproducible? If the tool you used to make your data visualization is not reproducible, how will this impact your data visualization? 
+
+    I have added comments to each line of my code and provided the jupyter notebook for the first visualtization. I've also provided the link for anyone to be able to download and reproduce the same graph. 
+    For the second one, anyone with access to google sheets for Excel will be able to reproduce it given how simple it is. 
     
     > How did you ensure that your data visualization is accessible?  
-    
+    For both figures I  tried to use contrasting colors so the are clearly distiguishable. 
+    In figure two I used a title, larger text size, labels in bold and added a clear legend.
+    In figure one I tried to make the markers easier to decipher by using a different marker for both line graphs, and also used a different color to make the markers more visible to plain eyesight. I also added a label and title.
+
+
     > Who are the individuals and communities who might be impacted by your visualization?  
-    
+    The overnight shelters, the people using these shelters and those who are donating to them. 
+
     > How did you choose which features of your chosen dataset to include or exclude from your visualization? 
+    For simplicity and to ensure that the average person can understand my visualizations, I chose to do a pie chart and a line chart. 
+    I tried to make it so that a cursory glance would get the message across. So I chose the line chart because anyone can look at it and understand that the number of homeless people has increased in the past few years. The total population of people in the shelter system was the logical thing to plot. I also chose show the number of people moving to housing in the same figure to show how few manage to move to housing and how the rate has not changed. 
+    For the pie chart it made sense create it with the categories of people flowing through the shelter system. 
+
     
     > What ‘underwater labour’ contributed to your final data visualization product?
+
+    First I did some exploratory data analysis to check what would work and where I might run into issues. The data is monthly, but there are different groups in the population group, which can make calculating things a bit tricky. 
+    For figure one I had to filter the data to ensure only "All population" from the population group is used, otherwise the breakdown of the groups would also get counted which would mean everything would get double counted. 
+    Since there were several months of data, I was running into issues with the x axis being too crowded so I changed the ticks to display every 15 months to make the graph easier to read.
+    For figure two I just used Excel's built in chart function to create a pie chart. 
 
 - This assignment is intentionally open-ended - you are free to create static or dynamic data visualizations, maps, or whatever form of data visualization you think best communicates your information to your audience of choice! 
 - Total word count should not exceed **(as a maximum) 1000 words** 
